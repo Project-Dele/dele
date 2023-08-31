@@ -38,7 +38,7 @@ const Div = styled.div`
     height: 100vh;
     right: 0%;
     box-shadow: 10px -5px 47px 0px rgba(0, 0, 0, 0);
-    animation: myAnim 2s ease 0s 1 normal forwards;
+    animation: myAnim 0.3s ease 0s 1 normal forwards;
 
     .side-list {
       display: flex;
