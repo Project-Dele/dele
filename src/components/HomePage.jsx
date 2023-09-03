@@ -98,9 +98,9 @@ const HomePage = () => {
 
         <p className="text2">
           For over 40 years we have maintained the highest standards of
-          excellence, training over 500 studentsto positively impact our country
-          in the fields of politics, law, engineering, medicine, technology,{" "}
-          education etc
+          excellence, training over 500 students to positively impact our
+          country in the fields of politics, law, engineering, medicine,
+          technology, education etc
         </p>
       </div>
       {/* section 4 ends here */}
