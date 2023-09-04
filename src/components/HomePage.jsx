@@ -325,7 +325,7 @@ const Div = styled.div`
   .curricular-section p {
     color: #faff00;
     text-align: right;
-    font-family: "Baloo Bhai", sans-serif;
+    font-family: "Baloo Bhai 2", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
