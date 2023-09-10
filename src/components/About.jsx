@@ -107,65 +107,58 @@ const About = () => {
 export default About;
 
 const Div = styled.div`
-.section-1{
-  background: linear-gradient(
+  .section-1 {
+    background: linear-gradient(
         0deg,
         rgba(255, 255, 255, 0.9) 0%,
         rgba(255, 255, 255, 0.9) 100%
       ),
-      url("Main.png"), lightgray 0px -369.456px / 100% 205.861% no-repeat;  height:500px;
-background-size:cover;
-  background-repeat:no-repeat;
-}
+      url("Main.png"), lightgray 0px -369.456px / 100% 205.861% no-repeat;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
-.heading{
-  width:100%;
-  height:500px;
-}
+  .heading {
+    width: 100%;
+    height: 500px;
+  }
 
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+  }
+  .logo-container img {
+    width: 120px;
+    height: 120px;
+  }
 
-.logo-container{
-  display:flex;
-  justify-content:center;
-  gap:50px;
-  align-items:center;
-}
-.logo-container img{
-  width:120px;
-  height:120px;
-}
+  .logo-container h1 {
+    color: #70ff00;
+    text-align: center;
+    font-family: "Fuzzy Bubbles", cursive;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+  }
 
-
-.logo-container h1{
-color: #70FF00;
-text-align: center;
-font-family: 'Fuzzy Bubbles', cursive;
-font-size: 65px;
-font-style: normal;
-font-weight: 700;
-letter-spacing: 2.5px;
-text-transform: uppercase;
-}
-
-
-
-.history {
+  .history {
     margin-top: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 227px;
-      margin-left:140px;
-    text-align:left;
+    margin-left: 140px;
+    text-align: left;
   }
-
-
-  
 
   .history h1 {
     color: #800020;
     font: 700 50px/97.5px "Fuzzy Bubbles", sans-serif;
- 
   }
 
   .history p {
@@ -177,8 +170,7 @@ text-transform: uppercase;
     flex-shrink: 0;
     flex-wrap: wrap;
     color: #000615;
-  font: 400 20px/28.8px "Baloo Bhai 2", sans-serif;
-
+    font: 400 20px/28.8px "Baloo Bhai 2", sans-serif;
   }
 
   .vision {
@@ -190,14 +182,14 @@ text-transform: uppercase;
     justify-content: center;
     align-items: center;
     gap: 230px;
-clip-path: polygon(0 0, 100% 6%, 100% 91%, 0 98%);
- width:100%; 
+    clip-path: polygon(0 0, 100% 6%, 100% 91%, 0 98%);
+    width: 100%;
   }
 
-//   .clip{
-// background: rgb(0,0,0);
-//  background: linear-gradient(90deg, rgba(0,0,0,1) 2%, rgba(255,255,255,1) 6%);
-//   }
+  //   .clip{
+  // background: rgb(0,0,0);
+  //  background: linear-gradient(90deg, rgba(0,0,0,1) 2%, rgba(255,255,255,1) 6%);
+  //   }
 
   .vision p {
     color: #fff;
@@ -207,27 +199,24 @@ clip-path: polygon(0 0, 100% 6%, 100% 91%, 0 98%);
     font-weight: 400;
     line-height: 28.8px;
     max-width: 400px;
-
   }
 
   .vision h1 {
     color: #faff00;
-   font-family: 'Fuzzy Bubbles', sans-serif;
+    font-family: "Fuzzy Bubbles", sans-serif;
     font-size: 50px;
     font-style: normal;
     font-weight: 700;
-
   }
 
   .mission {
-       margin-top: 30px;
+    margin-top: 30px;
     height: 100px;
     display: flex;
     color: white;
     justify-content: center;
     align-items: start;
     gap: 227px;
-    
   }
 
   .mission p {
@@ -238,33 +227,29 @@ clip-path: polygon(0 0, 100% 6%, 100% 91%, 0 98%);
     font-weight: 400;
     line-height: 28.8px;
     max-width: 400px;
-
   }
 
   .mission h1 {
     color: #800020;
-   font-family: 'Fuzzy Bubbles', sans-serif;
+    font-family: "Fuzzy Bubbles", sans-serif;
     font-size: 50px;
     font-style: normal;
     font-weight: 700;
     // margin-right:100px;
-    
   }
 
-    .mottoss {
+  .mottoss {
     color: #faff00;
-    font-family: 'Fuzzy Bubbles', sans-serif;
+    font-family: "Fuzzy Bubbles", sans-serif;
     font-size: 50px;
     font-style: normal;
     font-weight: 700;
     // border:1px solid blue;
-    margin-right:190px;
-    text-align:left;
-    max-width:400px;
-
-    
+    margin-right: 190px;
+    text-align: left;
+    max-width: 400px;
   }
-  
+
   .mottos {
     margin-top: 120px;
     height: 320px;
@@ -274,12 +259,10 @@ clip-path: polygon(0 0, 100% 6%, 100% 91%, 0 98%);
     justify-content: center;
     align-items: center;
     gap: 80px;
-  clip-path: polygon(0 14%, 100% 10%, 100% 100%, 0 87%);
-
- 
+    clip-path: polygon(0 14%, 100% 10%, 100% 100%, 0 87%);
   }
 
-    .mottos p{
+  .mottos p {
     color: #fff;
     font-family: "Baloo Bhai 2", sans-serif;
     font-size: 20px;
@@ -287,9 +270,7 @@ clip-path: polygon(0 0, 100% 6%, 100% 91%, 0 98%);
     font-weight: 400;
     line-height: 28.8px;
     max-width: 400px;
-
   }
-
 
   .extra {
     display: flex;
@@ -300,20 +281,17 @@ clip-path: polygon(0 0, 100% 6%, 100% 91%, 0 98%);
     gap: 200px;
   }
 
-  .pop{
-      color: #800020;
-  text-align: center;
-  font: 700 65px/97.5px "Fuzzy Bubbles", sans-serif;
-  text-transform: uppercase;
-  position: relative;
+  .pop {
+    color: #800020;
+    text-align: center;
+    font: 700 65px/97.5px "Fuzzy Bubbles", sans-serif;
+    text-transform: uppercase;
+    position: relative;
 
-  height: 78px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-
-
+    height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .text {
@@ -337,46 +315,41 @@ clip-path: polygon(0 0, 100% 6%, 100% 91%, 0 98%);
   }
   .extra h1 {
     color: #800020;
-  font-family: 'Fuzzy Bubbles', sans-serif;
+    font-family: "Fuzzy Bubbles", sans-serif;
     font-size: 50px;
     font-style: normal;
     font-weight: 700;
-    margin-left:100px;
+    margin-left: 100px;
   }
-
-
 
   @media (max-width: 768px) {
     overflow: hidden;
-    .logo-container{
-      position:relative;
-      display:flex;
-      flex-direction:column;
-      
+    .logo-container {
+      position: relative;
+      display: flex;
+      flex-direction: column;
     }
 
-  .logo1{
-    position:absolute;
-    top:50px;
-    left:40px;
-      width:120px;
-  height:120px;
+    .logo1 {
+      position: absolute;
+      top: 50px;
+      left: 40px;
+      width: 120px;
+      height: 120px;
     }
-.logo2{
-    position:absolute;
-    top:50px;
-    right:40px;
-      width:120px;
-  height:120px;
-    }
-
-    .pop{
-      position:absolute;
-      top:150px;
-      font-size:45px;
+    .logo2 {
+      position: absolute;
+      top: 50px;
+      right: 40px;
+      width: 120px;
+      height: 120px;
     }
 
-
+    .pop {
+      position: absolute;
+      top: 150px;
+      font-size: 45px;
+    }
 
     .history {
       display: flex;
@@ -385,7 +358,7 @@ clip-path: polygon(0 0, 100% 6%, 100% 91%, 0 98%);
       align-items: center;
       gap: 30px;
       overflow: hidden;
-      margin:0;
+      margin: 0;
     }
     .history p {
       padding: 10px;
@@ -398,7 +371,7 @@ clip-path: polygon(0 0, 100% 6%, 100% 91%, 0 98%);
       justify-content: center;
       align-items: center;
       gap: 10px;
-            margin-top:0;
+      margin-top: 0;
     }
 
     .vision h1 {
@@ -409,20 +382,18 @@ clip-path: polygon(0 0, 100% 6%, 100% 91%, 0 98%);
       text-align: center;
     }
 
-
-
-
-        .mottos {
+    .mottos {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       gap: 10px;
-            margin-top:0;
+      margin-top: 20px;
     }
 
     .mottoss {
       font-size: 20px;
+      margin: 0;
     }
     .mottos p {
       font-size: 18px;
@@ -435,8 +406,7 @@ clip-path: polygon(0 0, 100% 6%, 100% 91%, 0 98%);
       justify-content: center;
       align-items: center;
       gap: 10px;
-            margin-top:0;
-         
+      margin-top: 0;
     }
 
     .mission h1 {
@@ -446,26 +416,16 @@ clip-path: polygon(0 0, 100% 6%, 100% 91%, 0 98%);
       font-size: 18px;
     }
 
-
-
-
-
-
-
-
-
-
-
     .extra {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       gap: 10px;
-      padding: 0;
+      padding: 0px;
       margin-bottom: 10px;
-      height:1200px;
-      margin-top:0;
+      height: 800px;
+      margin-top: 0px;
     }
 
     .text {
@@ -479,7 +439,7 @@ clip-path: polygon(0 0, 100% 6%, 100% 91%, 0 98%);
 
     .third {
       color: #000615;
-      font-family: "Baloo Bhai 2", cursive;ai 2;
+      font-family: "Baloo Bhai 2", sans-serif;
       font-size: 18px;
       font-style: normal;
       font-weight: 700;
@@ -488,12 +448,12 @@ clip-path: polygon(0 0, 100% 6%, 100% 91%, 0 98%);
     }
     .extra h1 {
       color: #800020;
-      font-family: 'Fuzzy Bubbles', cursive;
+      font-family: "Fuzzy Bubbles", cursive;
       font-size: 30px;
       font-style: normal;
       font-weight: 700;
       text-align: center;
-      margin-top:0;
+      margin: 0;
     }
   }
 `;
