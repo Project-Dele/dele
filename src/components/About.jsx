@@ -406,11 +406,12 @@ const Div = styled.div`
       justify-content: center;
       align-items: center;
       gap: 10px;
-      margin-top: 0;
+      margin-top: 20px;
     }
 
     .mission h1 {
       font-size: 20px;
+      margin-top: 80px;
     }
     .mission p {
       font-size: 18px;
